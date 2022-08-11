@@ -1,0 +1,47 @@
+.nav-ul{
+    display: flex!important;
+    margin-left: -.5625rem;
+    margin-bottom: .375rem;
+    overflow-y: visible;
+    padding: 0 0 0 .375rem;
+    list-style-type: none;
+    text-transform: none;
+    width: 100%;
+    padding-inline-start: 40px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#access li {
+    position: relative;
+    padding-left: 11px;
+}
+
+#access a {
+    border-bottom: 2px solid #fff;
+    color: rgb(27, 127, 209);
+    display: block;
+    line-height: 3.333em;
+    padding: 0 10px 0 20px;
+    text-decoration: none;
+}
+
+#access li:hover > a,
+#access ul ul :hover > a,
+#access a:focus {
+    background: #efefef;
+}
+#access li:hover > a,
+#access a:focus {
+    background: #f9f9f9; /* Show a solid color for older browsers */
+    background: -moz-linear-gradient(#f9f9f9, #e5e5e5);
+    background: -o-linear-gradient(#f9f9f9, #e5e5e5);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); /* Older webkit syntax */
+    background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
+    color: #373737;
+}
+#access ul li:hover > ul {
+    display: block;
+}

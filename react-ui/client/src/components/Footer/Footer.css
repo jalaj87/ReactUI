@@ -1,0 +1,19 @@
+.footer-bottom {
+    position: relative;
+    margin-top: 4.5rem;
+    margin-bottom: 3.375rem;
+    width: 100%;
+    color: #f6f6f6;
+    text-align: left;
+
+  }
+
+  .foot-copy {
+    color: #46494d;
+    padding-top: 1.125rem;
+    font-size: .75rem;
+  }
+  .footer-bottom span {
+    color: black;
+    font-weight: bold;
+  }
